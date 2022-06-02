@@ -3,7 +3,7 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
 
 anime.timeline()
   .add({
-    targets: '.ml7 .letter',
+    targets: '.text .letter',
     translateY: ["1.1em", 0],
     translateX: ["0.55em", 0],
     translateZ: 0,
